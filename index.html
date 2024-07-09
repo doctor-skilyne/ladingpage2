@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra de Boletos de Autobús</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Compra de Boletos de Autobús</h1>
+    </header>
+    <main>
+        <section class="search-box">
+            <h2>Buscar Boletos</h2>
+            <form action="#">
+
+                <label for="nombre">nombre y apellido:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="DNI">DNI:</label>
+                <input type="text" id="DNI" name="DNI" required>
+
+
+                <label for="origen">Origen:</label>
+                <input type="text" id="origen" name="origen" required>
+
+                <label for="destino">Destino:</label>
+                <input type="text" id="destino" name="destino" required>
+
+                <label for="fecha">Fecha de Viaje:</label>
+                <input type="date" id="fecha" name="fecha" required>
+
+                <button type="submit">Buscar</button>
+            </form>
+        </section>
+
+        <section class="bus-listings">
+            <h2>Resultados de Búsqueda</h2>
+            Empresa de Bus	Allinbus	America Express
+            Servicio	Bus Cama	Premium
+            Precios desde	S/70.00	S/95.00
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Compra de Boletos de Autobús</p>
+    </footer>
+</body>
+</html>
